@@ -1,4 +1,4 @@
-FROM rikorose/gcc-cmake
+FROM 
 #RUN git clone https://github.com/Team3487-RedPrideRobotics/RemoteDS.git
 COPY . /RemoteDS
 WORKDIR /RemoteDS
