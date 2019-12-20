@@ -1,0 +1,3 @@
+[submodule "lib/LibDS"]
+	path = lib/LibDS
+	url = https://github.com/Team3487-RedPrideRobotics/LibDS.git
