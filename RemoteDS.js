@@ -16,4 +16,30 @@ var protocol = new Protocol({
             return await response.json();
         } 
     },
+    on_started() {
+        const userAction = async() => {
+            const response = await("http://qira.local/robot_started", {
+                method: 'POST',
+                body: {},
+                headers: {
+                    'Content-Type': 'application/json',
+                }
+            });
+        }
+    },
+    on_stopped() {
+        const userAction = async() => {
+            const response = await("http://qira.local/robot_stopped", {
+                method: 'POST',
+                body: {},
+                headers: {
+                    'Content-Type': 'application/json',
+                }
+            });
+        }
+    },
+
+    
+
 });
+
