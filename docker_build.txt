@@ -6,4 +6,4 @@ docker build -t bak3dchips/remote-ds:0.0.$TRAVIS_BUILD_NUMBER -f Dockerfile .
 docker push bak3dchips/remote-ds:0.0.$TRAVIS_BUILD_NUMBER
 
 docker build -t bak3dchips/remote-ds:latest -f Dockerfile .
-docker push bak3dchips/remote-ds:lsatest
+docker push bak3dchips/remote-ds:latest
