@@ -1,4 +1,4 @@
-FROM arm64v8/node:latest
+FROM arm32v7/node:latest
 #RUN git clone https://github.com/Team3487-RedPrideRobotics/RemoteDS.git
 COPY . /RemoteDS
 WORKDIR /RemoteDS
